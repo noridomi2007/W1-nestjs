@@ -1,24 +1,47 @@
-# Nestjs specific
+# compiled output
 /dist
 /node_modules
-/build
-/tmp
+/.yarn
 
 # Logs
-logs
 *.log
 npm-debug.log*
-pnpm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
-# dotenv environment variable files
-.env
-.env.development
-.env.test
-.env.production
+# OS
+.DS_Store
 
-# temp directory
-.temp
-.tmp
+# Tests
+/coverage
+/.nyc_output
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+/.vscode/
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Environment files
+.env
+
+# Winston audit file
+*-audit.json
+
+ca-certificate.crt
+/db/
+yarn.lock
+package-lock.json
+/uploads/
